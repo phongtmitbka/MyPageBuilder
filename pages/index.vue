@@ -128,37 +128,6 @@ export default {
                                     cssAttributes: {
                                     },
                                     children: [
-
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    type: 'container',
-                    classAttributes: [
-                        'container'
-                    ],
-                    cssAttributes: {
-                    },
-                    children: [
-                        {
-                            type: 'container',
-                            classAttributes: [
-                                'row'
-                            ],
-                            cssAttributes: {
-                            },
-                            children: [
-                                {
-                                    type: 'container',
-                                    classAttributes: [
-                                        'col-6'
-                                    ],
-                                    cssAttributes: {
-                                    },
-                                    children: [
                                         {
                                             type: 'text',
                                             classAttributes: [
@@ -205,6 +174,34 @@ export default {
                                             alt: 'This is a Image',
                                         }
                                     ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    type: 'container',
+                    classAttributes: [
+                        'container'
+                    ],
+                    cssAttributes: {
+                    },
+                    children: [
+                        {
+                            type: 'container',
+                            classAttributes: [
+                                'row'
+                            ],
+                            cssAttributes: {
+                            },
+                            children: [
+                                {
+                                    type: 'container',
+                                    classAttributes: [
+                                        'col-6'
+                                    ],
+                                    cssAttributes: {
+                                    }
                                 },
                                 {
                                     type: 'container',
