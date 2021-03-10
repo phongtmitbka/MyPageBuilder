@@ -1,7 +1,7 @@
 <template>
   <div :class="classAttributes" :style="cssAttributes">
     <template v-for="child in children">
-      <Section v-if="child.type === 'section'" :classAttributes="child.classAttributes" :style="child.cssAttributes" :children="child.children" />
+      <Container v-if="child.type === 'container'" :classAttributes="child.classAttributes" :style="child.cssAttributes" :children="child.children" />
       <template v-else-if="child.type === 'text'">
         <TextElement :classAttributes="child.classAttributes" :style="child.cssAttributes" :content="child.content" />
       </template>

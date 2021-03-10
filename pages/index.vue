@@ -1,5 +1,5 @@
 <template>
-  <Section :classAttributes="classAttributes" :style="cssAttributes" :children="children" />
+  <Container :classAttributes="classAttributes" :style="cssAttributes" :children="children" />
 </template>
 
 <script>
@@ -15,7 +15,7 @@ export default {
             },
             children: [
                 {
-                    type: 'section',
+                    type: 'container',
                     classAttributes: [
                         'container-fluid'
                     ],
@@ -24,7 +24,7 @@ export default {
                     },
                     children: [
                         {
-                            type: 'section',
+                            type: 'container',
                             classAttributes: [
                                 'container'
                             ],
@@ -56,7 +56,7 @@ export default {
                             ]
                         },
                         {
-                            type: 'section',
+                            type: 'container',
                             classAttributes: [
                                 'row'
                             ],
@@ -64,7 +64,7 @@ export default {
                             },
                             children: [
                                 {
-                                    type: 'section',
+                                    type: 'container',
                                     classAttributes: [
                                         'col-6'
                                     ],
@@ -121,7 +121,7 @@ export default {
                                     ]
                                 },
                                 {
-                                    type: 'section',
+                                    type: 'container',
                                     classAttributes: [
                                         'col-6'
                                     ],
@@ -136,7 +136,7 @@ export default {
                     ]
                 },
                 {
-                    type: 'section',
+                    type: 'container',
                     classAttributes: [
                         'container'
                     ],
@@ -144,7 +144,7 @@ export default {
                     },
                     children: [
                         {
-                            type: 'section',
+                            type: 'container',
                             classAttributes: [
                                 'row'
                             ],
@@ -152,7 +152,7 @@ export default {
                             },
                             children: [
                                 {
-                                    type: 'section',
+                                    type: 'container',
                                     classAttributes: [
                                         'col-6'
                                     ],
@@ -207,7 +207,7 @@ export default {
                                     ]
                                 },
                                 {
-                                    type: 'section',
+                                    type: 'container',
                                     classAttributes: [
                                         'col-6'
                                     ],
