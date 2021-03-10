@@ -17,16 +17,16 @@ export default {
                 {
                     type: 'container',
                     classAttributes: [
-                        'container-fluid'
+                        'container'
                     ],
                     cssAttributes: {
-                        background: 'white'
+                        background: '#f9f9f9'
                     },
                     children: [
                         {
                             type: 'container',
                             classAttributes: [
-                                'container'
+                                'row header-wrapper'
                             ],
                             cssAttributes: {
                                 background: 'white',
